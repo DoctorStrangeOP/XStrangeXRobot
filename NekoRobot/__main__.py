@@ -107,6 +107,9 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
+NEKO_STICKERS = (
+    
+)
 
 HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
