@@ -145,7 +145,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
+            text="🚑 Support", url=f"https://telegram.dog/XstrangeXCommunity"
         ),
         InlineKeyboardButton(
             text="📢 Join Channel", url="https://telegram.dog/XstrangeXOfficial"
