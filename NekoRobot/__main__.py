@@ -119,10 +119,8 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/89db665376080fd4e0e01.gif) 」────
-*Hey there {}, My name is XstrangeX ROBOT! 
-
-I'm here to help you manage your groups! 
+────「 [{}](https://telegra.ph/file/9996ec2eafdef4692102d.jpg) 」────
+*Hey there {}, My name is XstrangeX ROBOT! I'm here to help you manage your groups! 
 
 Hit /help Command Below To Know My Abilities*
 """
