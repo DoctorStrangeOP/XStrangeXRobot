@@ -158,7 +158,7 @@ GROUP_START_IMG = (
     "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
 )
 
-DONATE_STRING = """❂ I'm Free for Everyone ❂"""
+DONATE_STRING = """I'm Free for Everyone"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -654,17 +654,17 @@ def donate(update: Update, context: CallbackContext) -> None:
             )
 
             update.effective_message.reply_text(
-                text="I'm free for everyone❤️\njust donate by subs channel, Don't forget to join the support group.",
+                text="I'm free for everyone❤️\nBut if you want to support me then Donate Me",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
                                 text="📢 Updates",
-                                url="https://telegram.dog/Programmer_Updates",
+                                url="https://telegram.dog/XstrangeXOfficial",
                             ),
                             InlineKeyboardButton(
-                                text="🚑 Support",
-                                url=f"https://telegram.dog/{SUPPORT_CHAT}",
+                                text="🥳 Donate",
+                                url=f"https://buymeacoffee.com/nulledspace}",
                             ),
                         ]
                     ]
