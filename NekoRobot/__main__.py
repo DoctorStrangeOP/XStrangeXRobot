@@ -158,7 +158,7 @@ GROUP_START_IMG = (
     "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
 )
 
-DONATE_STRING = """ I'm Free for Everyone\nIf you want to support me Donate Via BuyMeACoffee """
+DONATE_STRING = """ I'm Free for Everyone\nIf you want to support me Donate Via BuyMeACoffee\n url= "https://buymeacoffee.com/nulledspace" """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -664,7 +664,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                             ),
                             InlineKeyboardButton(
                                 text="🥳 Donate",
-                                url="https://buymeacoffee.com/nulledspace",
+                                url=f"https://buymeacoffee.com/nulledspace",
                             ),
                         ]
                     ]
