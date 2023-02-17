@@ -151,11 +151,11 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://telegra.ph/file/af26d1ac00c6f9ef5c9d7.jpg",
-    "https://telegra.ph/file/af26d1ac00c6f9ef5c9d7.jpg",
-    "https://telegra.ph/file/af26d1ac00c6f9ef5c9d7.jpg",
-    "https://telegra.ph/file/af26d1ac00c6f9ef5c9d7.jpg",
-    "https://telegra.ph/file/af26d1ac00c6f9ef5c9d7.jpg",
+    "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
+    "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
+    "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
+    "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
+    "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
@@ -292,11 +292,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="🚑 Support",
-                            url=f"https://telegram.dog/{SUPPORT_CHAT}",
+                            url=f"https://telegram.dog/XstrangeXCommunity",
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://telegram.dog/Programmer_Updates",
+                            url="https://telegram.dog/XstrangeXOfficial",
                         ),
                     ]
                 ]
