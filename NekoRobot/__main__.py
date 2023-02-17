@@ -110,14 +110,6 @@ def get_readable_time(seconds: int) -> str:
 HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
-NEKO_STICKERS = (
-    "CAACAgEAAxkBAAEHxedj7nctvFOI7r6Udp_OlmaMOUDnJwACJQMAAnAscEeHun9i8Khzgi4E",
-    "CAACAgEAAxkBAAEHxedj7nctvFOI7r6Udp_OlmaMOUDnJwACJQMAAnAscEeHun9i8Khzgi4E",
-    "CAACAgEAAxkBAAEHxedj7nctvFOI7r6Udp_OlmaMOUDnJwACJQMAAnAscEeHun9i8Khzgi4E",
-    "CAACAgEAAxkBAAEHxedj7nctvFOI7r6Udp_OlmaMOUDnJwACJQMAAnAscEeHun9i8Khzgi4E",
-    "CAACAgEAAxkBAAEHxedj7nctvFOI7r6Udp_OlmaMOUDnJwACJQMAAnAscEeHun9i8Khzgi4E",
-)
-
 PM_START_TEXT = """
 ────「 [{}](https://telegra.ph/file/24e3d0e6712dcd26af117.jpg) 」────
 *Hey there {}, My name is XstrangeX ROBOT! I'm here to help you manage your groups! 
@@ -276,11 +268,6 @@ def start(update: Update, context: CallbackContext):
             elif args[0][1:].isdigit() and "rules" in IMPORTED:
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
-        else:
-            update.effective_message.reply_sticker(
-                random.choice(NEKO_STICKERS),
-                timeout=60,
-            )
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
