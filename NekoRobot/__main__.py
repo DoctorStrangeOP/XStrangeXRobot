@@ -158,16 +158,7 @@ GROUP_START_IMG = (
     "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
 )
 
-DONATE_STRING = "I'm Free for Everyone.. If you want to support me Donate by Via"
-
-buttons = [
-    [
-            InlineKeyboardButton(
-            text=f"BuyMeaCoffee Link",
-            url=f"https://buymeacoffee.com/nulledspace",
-        )
-    ],
- ]
+DONATE_STRING = "I'm Free for Everyone.. If you want to support me Donate in https://buymeacoffee.com/nulledspace"
 
 IMPORTED = {}
 MIGRATEABLE = []
