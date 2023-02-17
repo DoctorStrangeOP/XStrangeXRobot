@@ -160,6 +160,14 @@ GROUP_START_IMG = (
 
 DONATE_STRING = """ I'm Free for Everyone """
 
+buttons = [
+    [
+        InlineKeyboardButton(
+            text=f"Add {BOT_NAME} To Your Group",
+            url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
+        )
+    ],
+
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -664,7 +672,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                             ),
                             InlineKeyboardButton(
                                 text="🥳 Donate",
-                                url="https://buymeacoffee.com/nulledspace}",
+                                url="https://buymeacoffee.com/nulledspace",
                             ),
                         ]
                     ]
