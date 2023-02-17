@@ -158,7 +158,7 @@ GROUP_START_IMG = (
     "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
 )
 
-DONATE_STRING = """I'm Free for Everyone"""
+DONATE_STRING = """ I'm Free for Everyone """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -372,7 +372,7 @@ def help_button(update: Update, context: CallbackContext) -> None:
                                 text="[► Back ◄]", callback_data="help_back"
                             ),
                             InlineKeyboardButton(
-                                text="[► Support ◄]", url=f"https://t.me/{SUPPORT_CHAT}"
+                                text="[► Support ◄]", url=f"https://t.me/XstrangeXCommunity"
                             ),
                         ]
                     ]
@@ -638,7 +638,7 @@ def donate(update: Update, context: CallbackContext) -> None:
 
         if OWNER_ID != 5629305049 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"You can also donate to the person currently running me [here]({DONATION_LINK})",
+                f"You can also donate to the person currently running me [here]({https://buymeacoffee.com/nulledspace})",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -664,7 +664,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                             ),
                             InlineKeyboardButton(
                                 text="🥳 Donate",
-                                url=f"https://buymeacoffee.com/nulledspace}",
+                                url="https://buymeacoffee.com/nulledspace}",
                             ),
                         ]
                     ]
