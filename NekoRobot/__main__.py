@@ -158,15 +158,7 @@ GROUP_START_IMG = (
     "https://telegra.ph/file/b0bcb4ff4a602cbe0da9c.jpg",
 )
 
-DONATE_STRING = """ I'm Free for Everyone """
-
-buttons = [
-    [
-        InlineKeyboardButton(
-            text=f"Add {BOT_NAME} To Your Group",
-            url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
-        )
-    ],
+DONATE_STRING = """ I'm Free for Everyone\nIf you want to support me Donate Via BuyMeACoffee """
 
 IMPORTED = {}
 MIGRATEABLE = []
